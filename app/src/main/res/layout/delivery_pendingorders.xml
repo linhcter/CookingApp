@@ -62,8 +62,8 @@
                 android:layout_marginLeft="30dp"
                 android:layout_weight="1"
                 android:textColor="@color/white"
-                android:background="@drawable/button_shape"
-                android:text="View" />
+                android:background="@drawable/btnred"
+                android:text="Chi Tiết" />
 
             <Button
                 android:id="@+id/accept1"
@@ -74,7 +74,7 @@
                 android:textColor="@color/white"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:text="Accept" />
+                android:text="Đồng Ý" />
 
 
             <Button
@@ -86,7 +86,7 @@
                 android:background="@drawable/btnred"
                 android:layout_marginRight="30dp"
                 android:layout_gravity="end"
-                android:text="Reject" />
+                android:text="Hủy" />
 
         </LinearLayout>
 

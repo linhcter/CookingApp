@@ -5,20 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/pic3"
-    tools:context="my.food_on.app.ChefRegisteration">
+    tools:context="com.food_on.app.ChefRegisteration">
 
 
     <ScrollView
-        android:layout_width="280dp"
-        android:layout_height="430dp"
+        android:layout_width="289dp"
+        android:layout_height="466dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
         android:background="@drawable/background_shape"
         android:orientation="vertical"
         android:padding="15dp"
@@ -38,8 +38,8 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/Firstname"
                 android:layout_width="match_parent"
-                android:layout_marginTop="15dp"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
@@ -108,8 +108,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="12dp">
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
 
                 <com.hbb20.CountryCodePicker
                     android:id="@+id/CountryCode"
@@ -215,24 +215,22 @@
                 android:layout_marginTop="5dp" />
 
 
-
-
             <Button
                 android:id="@+id/Signup"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginTop="20dp"
-                android:textColor="@color/white"
                 android:background="@drawable/button_shape"
                 android:text="Register"
                 android:textAllCaps="true"
+                android:textColor="@color/white"
                 android:textSize="15dp" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
                 <TableRow
@@ -280,8 +278,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="14dp"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginTop="14dp"
                 android:orientation="horizontal">
 
                 <Button
@@ -306,7 +304,7 @@
                     android:drawablePadding="5dp"
                     android:padding="10dp"
                     android:text="Phone"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/Black" />
 
 
             </LinearLayout>

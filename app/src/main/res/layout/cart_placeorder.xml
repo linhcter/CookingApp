@@ -29,7 +29,7 @@
                 android:layout_marginLeft="10dp"
                 android:textColor="@color/Blacklogo"
                 android:maxWidth="300dp"
-                android:text="Pannerr tikka malasa "
+                android:text="Tên món "
                 android:textSize="25dp" />
 
             <LinearLayout
@@ -44,7 +44,7 @@
                     app:backgroundDrawable="@drawable/elegant_btnshape"
                     android:layout_height="25dp"
                     android:layout_gravity="bottom"
-                    app:backGroundColor="#FA3E03" />
+                    app:backGroundColor="#171616" />
             </LinearLayout>
         </LinearLayout>
 
@@ -61,7 +61,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="4dp"
-                android:text="Price: Rs 50"
+                android:text="Giá: Rs 50"
                 android:textSize="18sp" />
 
             <TextView
@@ -82,7 +82,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="8dp"
             android:gravity="right"
-            android:text="Total: Rs 150"
+            android:text="Tổng: Rs 150"
             android:textSize="18sp"></TextView>
 
     </LinearLayout>

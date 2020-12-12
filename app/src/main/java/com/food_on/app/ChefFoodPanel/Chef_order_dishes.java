@@ -38,7 +38,7 @@ public class Chef_order_dishes extends AppCompatActivity {
         Cheforderdishes();
 
     }
-
+//Lấy thông tin từ Firebase nhập vô adapter đổ lên RV
     private void Cheforderdishes() {
 
         RandomUID = getIntent().getStringExtra("RandomUID");

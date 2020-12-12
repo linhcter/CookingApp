@@ -31,17 +31,15 @@ import java.util.HashMap;
 
 public class Delivery_registeration extends AppCompatActivity {
 
-    String[] Maharashtra = {"Mumbai", "Pune", "Aurangabad"};
-    String[] Gujarat = {"Ahemdabad", "Rajkot", "Surat"};
+    String[] VietNam = {"Miền Bắc", "Miền Trung", "Miền Nam"};
+    String[] Japan = {"Tokyo", "Osaka", "Kyoto"};
 
 
-    String[] Mumbai = {"Churchgate", "Marine Lines", "Charni Road", "Grant Road", "Mumbai Central", "Mahalakshmi", "Lower Parel", "Prabhadevi",
-            "Dadar", "Matunga", "Mahim", "Bandra", "Khar", "Santacruz", "Vile Parle", "Andheri", "Jogeshwari", "Ram Mandir",
-            "Goregaon", "Malad", "Kandivai", "Borivali", "Dahisar", "MiraRoad", "Bhayander", "Naigaon", "Vasai Road", "Nalla Sopara", "Virar"};
+    String[] MB = {"Hà Nội", "Cao Bằng", "Nghệ An"};
 
 
-    String[] Pune = {"Hinjewadi", "Wagholi", " Ambegaon", "Undri", "Katraj"};
-    String[] Aurangabad = {"Aarif Colony", "Baiji Pura", "Balaji Nagar", "Angoori Bagh"};
+    String[] MT = {"Daklak","DakNong","KonTum"};
+    String[] MN = {"SG", "Cà Mau","Vũng Tàu"};
 
 
     TextInputLayout Fname, Lname, Pass, cfpass, mobileno, houseno, area, postcode, Email;
@@ -86,18 +84,18 @@ public class Delivery_registeration extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Object value = parent.getItemAtPosition(position);
                 statee = value.toString().trim();
-                if (statee.equals("Maharashtra")) {
+                if (statee.equals("VietNam")) {
                     ArrayList<String> list = new ArrayList<>();
-                    for (String text : Maharashtra) {
+                    for (String text : VietNam) {
                         list.add(text);
                     }
                     ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(Delivery_registeration.this, android.R.layout.simple_spinner_item, list);
 
                     Cityspin.setAdapter(arrayAdapter);
                 }
-                if (statee.equals("Gujarat")) {
+                if (statee.equals("Japan")) {
                     ArrayList<String> list = new ArrayList<>();
-                    for (String text : Gujarat) {
+                    for (String text : Japan) {
                         list.add(text);
                     }
                     ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(Delivery_registeration.this, android.R.layout.simple_spinner_item, list);
@@ -118,27 +116,27 @@ public class Delivery_registeration extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 Object value = parent.getItemAtPosition(position);
                 cityy = value.toString().trim();
-                if (cityy.equals("Mumbai")) {
+                if (cityy.equals("Miền Bắc")) {
                     ArrayList<String> listt = new ArrayList<>();
-                    for (String text : Mumbai) {
+                    for (String text : MB) {
                         listt.add(text);
                     }
                     ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(Delivery_registeration.this, android.R.layout.simple_spinner_item, listt);
                     Suburban.setAdapter(arrayAdapter);
                 }
 
-                if (cityy.equals("Pune")) {
+                if (cityy.equals("Miền Trung")) {
                     ArrayList<String> listt = new ArrayList<>();
-                    for (String text : Pune) {
+                    for (String text : MT) {
                         listt.add(text);
                     }
                     ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(Delivery_registeration.this, android.R.layout.simple_spinner_item, listt);
                     Suburban.setAdapter(arrayAdapter);
                 }
 
-                if (cityy.equals("Aurangabad")) {
+                if (cityy.equals("Miền Nam")) {
                     ArrayList<String> listt = new ArrayList<>();
-                    for (String text : Aurangabad) {
+                    for (String text : MN) {
                         listt.add(text);
                     }
                     ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(Delivery_registeration.this, android.R.layout.simple_spinner_item, listt);

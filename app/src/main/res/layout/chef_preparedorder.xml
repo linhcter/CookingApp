@@ -44,7 +44,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:background="@drawable/btnred"
-            android:text="View"
+            android:text="Chi Tiết"
             android:textColor="@color/white" />
 
 

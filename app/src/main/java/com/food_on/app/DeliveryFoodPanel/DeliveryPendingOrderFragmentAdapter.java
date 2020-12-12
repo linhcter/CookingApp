@@ -67,7 +67,7 @@ public class DeliveryPendingOrderFragmentAdapter extends RecyclerView.Adapter<De
         final DeliveryShipOrders1 deliveryShipOrders1 = deliveryShipOrders1list.get(position);
         holder.Address.setText(deliveryShipOrders1.getAddress());
         holder.mobilenumber.setText("+91" + deliveryShipOrders1.getMobileNumber());
-        holder.grandtotalprice.setText("Grand Total: ₹ " + deliveryShipOrders1.getGrandTotalPrice());
+        holder.grandtotalprice.setText("Grand Total: đ " + deliveryShipOrders1.getGrandTotalPrice());
         final String randomuid = deliveryShipOrders1.getRandomUID();
         holder.Vieworder.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -132,7 +132,7 @@ public class DeliveryPendingOrderFragmentAdapter extends RecyclerView.Adapter<De
                                                             @Override
                                                             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                                                 String usertoken = dataSnapshot.getValue(String.class);
-                                                                sendNotifications(usertoken, "Order Accepted", "Your Order has been Accepted by the Delivery person", "AcceptOrder");
+                                                                sendNotifications(usertoken, "Order Accepted", "Đơn hàng của bạn đã được tiếp nhận bởi người giao", "AcceptOrder");
                                                                 ReusableCodeForAll.ShowAlert(context, "", "Now you can check orders which are to be shipped");
 
                                                             }
@@ -192,7 +192,7 @@ public class DeliveryPendingOrderFragmentAdapter extends RecyclerView.Adapter<De
                             @Override
                             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                 String usertoken = dataSnapshot.getValue(String.class);
-                                sendNotifications(usertoken, "Order Rejected", "Your Order has been Rejected by the Delivery person", "RejectOrder");
+                                sendNotifications(usertoken, "Order Rejected", "Rất tiếc, đơn hàng của bạn không được người vận chuyển tiếp nhận", "RejectOrder");
                                 FirebaseDatabase.getInstance().getReference("DeliveryShipOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(randomuid).child("Dishes").removeValue().addOnCompleteListener(new OnCompleteListener<Void>() {
                                     @Override
                                     public void onComplete(@NonNull Task<Void> task) {

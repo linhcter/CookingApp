@@ -49,8 +49,6 @@ public class CustomerOnlinePayment extends AppCompatActivity {
     }
 
     private boolean valid() {
-
-
         cardname.setErrorEnabled(false);
         cardname.setError("");
         cardnumber.setErrorEnabled(false);
@@ -72,7 +70,7 @@ public class CustomerOnlinePayment extends AppCompatActivity {
             cardnumber.setErrorEnabled(true);
             cardnumber.setError("Cardnumber is required");
         } else {
-            if (number.length() < 16) {
+            if (number.length() < 10) {
                 cardnumber.setErrorEnabled(true);
                 cardnumber.setError("Invalid number");
             } else {

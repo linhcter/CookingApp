@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="my.food_on.app.CustomerFoodPanel.CustomerOnlinePayment">
+    tools:context="com.food_on.app.CustomerFoodPanel.CustomerOnlinePayment">
 
     <TextView
         android:id="@+id/pyy"
@@ -30,7 +30,7 @@
         android:layout_marginRight="15dp"
         android:gravity="center_vertical"
         android:text="We accept Credit and Debit Cards from Visa, Mastercard, Rupay, Maestro &amp; American Express."
-        android:textColor="@color/darkgray"
+        android:textColor="@color/white"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,6 +38,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pyy"
         app:layout_constraintVertical_bias="0.0" />
+
 
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/nameoncard"
@@ -54,7 +55,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Name on card"
+            android:hint="Name card"
             android:inputType="text"/>
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -104,7 +105,7 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Expiry Date(MM/YY)"
+                android:hint="Ngày hết hạn(MM/YY)"
                 android:inputType="date"/>
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -139,7 +140,7 @@
         android:drawableLeft="@drawable/ic_check_box_black_24dp"
         android:drawablePadding="15dp"
         android:gravity="center_vertical"
-        android:text="Save your card details securely"
+        android:text="Lưu thông tin"
         android:textColor="@color/Black"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"

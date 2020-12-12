@@ -1,7 +1,7 @@
 package com.food_on.app.ChefFoodPanel;
 
 public class ChefFinalOrders1 {
-
+    //Database của cái PreparedOrder
     private String Address,GrandTotalPrice,MobileNumber,Name,RandomUID,Status;
 
     public ChefFinalOrders1(String address, String grandTotalPrice, String mobileNumber, String name, String randomUID, String status) {

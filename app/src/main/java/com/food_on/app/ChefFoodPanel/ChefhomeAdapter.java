@@ -36,7 +36,7 @@ public class ChefhomeAdapter extends RecyclerView.Adapter<ChefhomeAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
-
+//holder thì như database mấy cái dự án trc làm
        final UpdateDishModel updateDishModel=updateDishModellist.get(position);
        holder.dishes.setText(updateDishModel.getDishes());
        updateDishModel.getRandomUID();
@@ -44,6 +44,7 @@ public class ChefhomeAdapter extends RecyclerView.Adapter<ChefhomeAdapter.ViewHo
            @Override
            public void onClick(View v) {
                Intent intent=new Intent(mcont,Update_Delete_Dish.class);
+               //cái putExtra là khi m click vào cái món nào thì nó sẽ lấy data của cái món đó rồi đổ vào getExtra của activity sau
                intent.putExtra("updatedeletedish",updateDishModel.getRandomUID());
                mcont.startActivity(intent);
 

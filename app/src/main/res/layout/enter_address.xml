@@ -32,7 +32,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="20dp"
-                android:text="home address"/>
+                android:text="Địa chỉ nhà bạn!"/>
 
             <RadioButton
                 android:id="@+id/OA"
@@ -41,7 +41,7 @@
                 android:layout_marginLeft="30dp"
                 android:layout_marginRight="30dp"
                 android:layout_marginTop="10dp"
-                android:text=" Other address"/>
+                android:text="Địa chỉ khác"/>
         </RadioGroup>
 
         <TextView
@@ -51,7 +51,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginBottom="8dp"
             android:gravity="center_vertical"
-            android:text="Add a Note (Extra Onion,sauce...)"
+            android:text="Thêm ghi chú(Thêm hành, ớt,...)"
             android:textAllCaps="false"
             android:textColor="#FA3E03"
             android:textSize="17sp" />

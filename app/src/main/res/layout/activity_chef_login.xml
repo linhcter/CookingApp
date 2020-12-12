@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/pic5"
-    tools:context="my.food_on.app.ChefLogin">
+    android:background="@drawable/hinhnen"
+    tools:context="com.food_on.app.ChefLogin">
 
 
     <LinearLayout
@@ -166,7 +166,7 @@
             android:layout_height="40dp"
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
-            android:background="@drawable/btnblueish"
+            android:background="@drawable/btnred"
             android:drawableLeft="@drawable/phonewhite"
             android:padding="10dp"
             android:text="Phone"

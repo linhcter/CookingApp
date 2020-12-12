@@ -62,7 +62,7 @@ public class ChefPreparedOrderView extends AppCompatActivity {
     private ProgressDialog progressDialog;
     private APIService apiService;
     Spinner Shipper;
-    String deliveryId = "FiskLkwpt9ZYgm19yZB8ldmrqD22";
+    String deliveryId = "gDk08IDJ1fgNj0AmcZdesxtcK6x2";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -255,7 +255,7 @@ public class ChefPreparedOrderView extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 ChefFinalOrders1 chefFinalOrders1 = dataSnapshot.getValue(ChefFinalOrders1.class);
-                grandtotal.setText("₹ " + chefFinalOrders1.getGrandTotalPrice());
+                grandtotal.setText("đ " + chefFinalOrders1.getGrandTotalPrice());
                 address.setText(chefFinalOrders1.getAddress());
                 name.setText(chefFinalOrders1.getName());
                 number.setText("+91" + chefFinalOrders1.getMobileNumber());

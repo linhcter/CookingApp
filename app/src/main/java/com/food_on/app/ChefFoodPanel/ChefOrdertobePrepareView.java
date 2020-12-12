@@ -134,7 +134,7 @@ public class ChefOrdertobePrepareView extends AppCompatActivity {
                                             hashMap1.put("MobileNumber", chefWaitingOrders1.getMobileNumber());
                                             hashMap1.put("Name", chefWaitingOrders1.getName());
                                             hashMap1.put("RandomUID", RandomUID);
-                                            hashMap1.put("Status", "Chef is preparing your Order...");
+                                            hashMap1.put("Status", "Đầu bếp đang chuẩn bị đơn hàng của bạn...");
                                             FirebaseDatabase.getInstance().getReference("ChefFinalOrders").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(RandomUID).child("OtherInformation").setValue(hashMap1).addOnCompleteListener(new OnCompleteListener<Void>() {
                                                 @Override
                                                 public void onComplete(@NonNull Task<Void> task) {
@@ -152,10 +152,10 @@ public class ChefOrdertobePrepareView extends AppCompatActivity {
                                                                                 @Override
                                                                                 public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                                                                                     String usertoken = dataSnapshot.getValue(String.class);
-                                                                                    sendNotifications(usertoken, "Estimated Time", "Chef is Preparing your Order", "Preparing");
+                                                                                    sendNotifications(usertoken, "Estimated Time", "Đầu bếp đang chuẩn bị đơn hàng của bạn", "Preparing");
                                                                                     progressDialog.dismiss();
                                                                                     AlertDialog.Builder builder = new AlertDialog.Builder(ChefOrdertobePrepareView.this);
-                                                                                    builder.setMessage("See Orders which are Prepared");
+                                                                                    builder.setMessage("Xem Đơn đặt hàng đã chuẩn bị");
                                                                                     builder.setCancelable(false);
                                                                                     builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                                                                         @Override
@@ -222,11 +222,11 @@ public class ChefOrdertobePrepareView extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 ChefWaitingOrders1 chefWaitingOrders1 = dataSnapshot.getValue(ChefWaitingOrders1.class);
-                grandtotal.setText("₹ " + chefWaitingOrders1.getGrandTotalPrice());
+                grandtotal.setText("đ " + chefWaitingOrders1.getGrandTotalPrice());
                 note.setText(chefWaitingOrders1.getNote());
                 address.setText(chefWaitingOrders1.getAddress());
                 name.setText(chefWaitingOrders1.getName());
-                number.setText("+91" + chefWaitingOrders1.getMobileNumber());
+                number.setText("+84" + chefWaitingOrders1.getMobileNumber());
 
             }
 

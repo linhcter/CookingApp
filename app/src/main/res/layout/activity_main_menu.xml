@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="my.food_on.app.MainMenu">
+    tools:context="com.food_on.app.MainMenu">
 
 
     <ImageView
@@ -50,7 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:fontFamily="cursive"
-            android:text="Eat Homemade Anywhere !"
+            android:text="Xin chào !"
             android:textAlignment="center"
             android:textColor="@color/Blacklogo"
             android:textSize="18dp" />
@@ -62,8 +62,8 @@
             android:layout_gravity="center"
             android:background="@drawable/btnred"
             android:drawableLeft="@drawable/whitemail"
-            android:paddingLeft="10dp"
-            android:text="SignIn with Email"
+            android:paddingLeft="5dp"
+            android:text="Đăng nhập bằng email"
             android:textColor="@color/white" />
 
         <Button
@@ -119,7 +119,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="25dp"
             android:background="@drawable/button_shape"
-            android:text="SignUp"
+            android:text="Đăng ký"
             android:textColor="@color/white" />
 
     </LinearLayout>

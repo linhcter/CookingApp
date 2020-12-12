@@ -53,13 +53,13 @@
                     android:id="@+id/dishprice"
                     android:layout_width="100dp"
                     android:layout_height="wrap_content"
-                    android:text="Price"
-                    android:textSize="15dp"
-                    android:gravity="end"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginRight="30dp"
                     android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="10dp"/>
+                    android:gravity="end"
+                    android:text="Price"
+                    android:textSize="15dp" />
 
 
             </LinearLayout>

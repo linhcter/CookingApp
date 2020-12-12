@@ -16,7 +16,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp"
-        android:text="Pending Orders"
+        android:text="Cập nhật hóa đơn"
         android:textColor="@color/Blacklogo"
         android:textSize="21dp" />
 
@@ -37,7 +37,7 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp"
-        android:text="Payable Orders"
+        android:text="Thanh toán"
         android:textColor="@color/Blacklogo"
         android:textSize="21dp" />
 

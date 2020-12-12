@@ -53,6 +53,7 @@ public class ChefHomeFragment extends Fragment {
         updateDishModelList = new ArrayList<>();
         String userid = FirebaseAuth.getInstance().getCurrentUser().getUid();
         dataaa = FirebaseDatabase.getInstance().getReference("Chef").child(userid);
+        //Lấy dữ liệu vị trí từ thằng Chef để phân vùng th
         dataaa.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
@@ -73,7 +74,7 @@ public class ChefHomeFragment extends Fragment {
         return v;
     }
 
-
+//Lấy data từ cái FoodSupplyDetails gắn vào holder trong adapter rồi để lên RV
     private void chefDishes() {
 
         String useridd = FirebaseAuth.getInstance().getCurrentUser().getUid();

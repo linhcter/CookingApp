@@ -19,6 +19,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.food_on.app.ChefRegisteration;
 import com.food_on.app.Customer;
 import com.food_on.app.MainMenu;
 import com.food_on.app.R;
@@ -35,20 +36,15 @@ import java.util.HashMap;
 public class CustomerProfileFragment extends Fragment {
 
 
-    String[] Maharashtra = {"Mumbai", "Pune", "Aurangabad"};
-    String[] Gujarat = {"Ahemdabad", "Rajkot", "Surat"};
+    String[] VietNam = {"Miền Bắc", "Miền Trung", "Miền Nam"};
+    String[] Japan = {"Tokyo", "Osaka", "Kyoto"};
 
 
-    String[] Mumbai = {"Churchgate", "Marine Lines", "Charni Road", "Grant Road", "Mumbai Central", "Mahalakshmi", "Lower Parel", "Prabhadevi",
-            "Dadar", "Matunga", "Mahim", "Bandra", "Khar", "Santacruz", "Vile Parle", "Andheri", "Jogeshwari", "Ram Mandir",
-            "Goregaon", "Malad", "Kandivai", "Borivali", "Dahisar", "MiraRoad", "Bhayander", "Naigaon", "Vasai Road", "Nalla Sopara", "Virar"};
+    String[] MB = {"Hà Nội", "Cao Bằng", "Nghệ An"};
 
 
-    String[] Pune = {"Hinjewadi", "Wagholi", " Ambegaon", "Undri", "Katraj"};
-    String[] Aurangabad = {"Aarif Colony", "Baiji Pura", "Balaji Nagar", "Angoori Bagh"};
-    String[] Ahemdabad = {"Mani Nagar", "Thaltej", "Prahlad Nagar", "Gandhinagar"};
-    String[] Surat = {"Agnovad", "Akoti", "Amroli", "Athwalines"};
-    String[] Rajkot = {"Kalawad Road", "Astron chowk", "Kotecha chowk", "Trikon bag"};
+    String[] MT = {"Daklak","DakNong","KonTum"};
+    String[] MN = {"SG", "Cà Mau","Vũng Tàu"};
 
     EditText firstname, lastname, address;
     Spinner State, City, Suburban;
@@ -78,6 +74,9 @@ public class CustomerProfileFragment extends Fragment {
         password = (LinearLayout) v.findViewById(R.id.passwordlayout);
         LogOut = (LinearLayout) v.findViewById(R.id.logout_layout);
 
+
+
+
         String userid = FirebaseAuth.getInstance().getCurrentUser().getUid();
         databaseReference = FirebaseDatabase.getInstance().getReference("Customer").child(userid);
         databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -96,17 +95,17 @@ public class CustomerProfileFragment extends Fragment {
                     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                         Object value = parent.getItemAtPosition(position);
                         statee = value.toString().trim();
-                        if (statee.equals("Maharashtra")) {
+                        if (statee.equals("VietNam")) {
                             ArrayList<String> list = new ArrayList<>();
-                            for (String text : Maharashtra) {
+                            for (String text : VietNam) {
                                 list.add(text);
                             }
                             ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, list);
                             City.setAdapter(arrayAdapter);
                         }
-                        if (statee.equals("Gujarat")) {
+                        if (statee.equals("Japan")) {
                             ArrayList<String> list = new ArrayList<>();
-                            for (String text : Gujarat) {
+                            for (String text : Japan) {
                                 list.add(text);
                             }
                             ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, list);
@@ -127,56 +126,33 @@ public class CustomerProfileFragment extends Fragment {
                     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                         Object value = parent.getItemAtPosition(position);
                         cityy = value.toString().trim();
-                        if (cityy.equals("Mumbai")) {
+                        if (cityy.equals("Miền Bắc")) {
                             ArrayList<String> listt = new ArrayList<>();
-                            for (String text : Mumbai) {
+                            for (String text : MB) {
                                 listt.add(text);
                             }
                             ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, listt);
                             Suburban.setAdapter(arrayAdapter);
                         }
 
-                        if (cityy.equals("Pune")) {
+                        if (cityy.equals("Miền Trung")) {
                             ArrayList<String> listt = new ArrayList<>();
-                            for (String text : Pune) {
+                            for (String text : MT) {
                                 listt.add(text);
                             }
                             ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, listt);
                             Suburban.setAdapter(arrayAdapter);
                         }
 
-                        if (cityy.equals("Aurangabad")) {
+                        if (cityy.equals("Miền Nam")) {
                             ArrayList<String> listt = new ArrayList<>();
-                            for (String text : Aurangabad) {
+                            for (String text : MN) {
                                 listt.add(text);
                             }
                             ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, listt);
                             Suburban.setAdapter(arrayAdapter);
                         }
-                        if (cityy.equals("Ahemdabad")) {
-                            ArrayList<String> listt = new ArrayList<>();
-                            for (String text : Ahemdabad) {
-                                listt.add(text);
-                            }
-                            ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, listt);
-                            Suburban.setAdapter(arrayAdapter);
-                        }
-                        if (cityy.equals("Surat")) {
-                            ArrayList<String> listt = new ArrayList<>();
-                            for (String text : Surat) {
-                                listt.add(text);
-                            }
-                            ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, listt);
-                            Suburban.setAdapter(arrayAdapter);
-                        }
-                        if (cityy.equals("Rajkot")) {
-                            ArrayList<String> listt = new ArrayList<>();
-                            for (String text : Rajkot) {
-                                listt.add(text);
-                            }
-                            ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(getContext(), android.R.layout.simple_spinner_item, listt);
-                            Suburban.setAdapter(arrayAdapter);
-                        }
+
                         Suburban.setSelection(getIndexByString(Suburban, customer.getSuburban()));
                     }
 
@@ -198,6 +174,8 @@ public class CustomerProfileFragment extends Fragment {
 
                     }
                 });
+                
+
             }
 
             @Override
@@ -211,8 +189,6 @@ public class CustomerProfileFragment extends Fragment {
     }
 
     private void updateinformation() {
-
-
         Update.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -282,7 +258,7 @@ public class CustomerProfileFragment extends Fragment {
 
 
                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-                builder.setMessage("Are you sure you want to Logout ?");
+                builder.setMessage("Bạn có muốn đăng xuất không ?");
                 builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {

@@ -84,6 +84,7 @@ public class Update_Delete_Dish extends AppCompatActivity {
         Delete_dish = (Button) findViewById(R.id.Deletedish);
         ID = getIntent().getStringExtra("updatedeletedish");
 
+        //lấy UId trong firbaseAuth
         String userid = FirebaseAuth.getInstance().getCurrentUser().getUid();
         dataaa = firebaseDatabase.getInstance().getReference("Chef").child(userid);
         dataaa.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -101,7 +102,6 @@ public class Update_Delete_Dish extends AppCompatActivity {
                         quantity = qty.getEditText().getText().toString().trim();
                         price = pri.getEditText().getText().toString().trim();
 
-
                         if (isValid()) {
                             if (imageuri != null) {
                                 uploadImage();
@@ -116,9 +116,8 @@ public class Update_Delete_Dish extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
 
-
                         AlertDialog.Builder builder = new AlertDialog.Builder(Update_Delete_Dish.this);
-                        builder.setMessage("Are you sure you want to Delete Dish");
+                        builder.setMessage("Bạn có muốn xóa Món này không?");
                         builder.setPositiveButton("YES", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
@@ -126,12 +125,12 @@ public class Update_Delete_Dish extends AppCompatActivity {
                                 firebaseDatabase.getInstance().getReference("FoodSupplyDetails").child(State).child(City).child(Sub).child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child(ID).removeValue();
 
                                 AlertDialog.Builder food = new AlertDialog.Builder(Update_Delete_Dish.this);
-                                food.setMessage("Your Dish has been Deleted");
+                                food.setMessage("Xóa thành công");
                                 food.setPositiveButton("OK", new DialogInterface.OnClickListener() {
                                     @Override
                                     public void onClick(DialogInterface dialog, int which) {
-
-                                        startActivity(new Intent(Update_Delete_Dish.this, ChefFoodPanel_BottomNavigation.class));
+                                        Intent intent = new Intent(Update_Delete_Dish.this, ChefFoodPanel_BottomNavigation.class);
+                                        startActivity(intent);
                                     }
                                 });
                                 AlertDialog alertt = food.create();
@@ -162,7 +161,7 @@ public class Update_Delete_Dish extends AppCompatActivity {
 
                         desc.getEditText().setText(updateDishModel.getDescription());
                         qty.getEditText().setText(updateDishModel.getQuantity());
-                        Dishname.setText("Dish name: " + updateDishModel.getDishes());
+                        Dishname.setText("Tên món: " + updateDishModel.getDishes());
                         dishes = updateDishModel.getDishes();
                         pri.getEditText().setText(updateDishModel.getPrice());
                         Glide.with(Update_Delete_Dish.this).load(updateDishModel.getImageURL()).into(imageButton);
@@ -279,7 +278,7 @@ public class Update_Delete_Dish extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 progressDialog.dismiss();
-                Toast.makeText(Update_Delete_Dish.this, "Dish Updated Successfully", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Update_Delete_Dish.this, "Cập nhật thành công", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -312,9 +311,9 @@ public class Update_Delete_Dish extends AppCompatActivity {
             CropImage.ActivityResult result = CropImage.getActivityResult(data);
             if (resultCode == RESULT_OK) {
                 ((ImageButton) findViewById(R.id.imageupload)).setImageURI(result.getUri());
-                Toast.makeText(this, "Cropped Successfully" + result.getSampleSize(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Cắt ảnh thành công" + result.getSampleSize(), Toast.LENGTH_SHORT).show();
             } else if (resultCode == CropImage.CROP_IMAGE_ACTIVITY_RESULT_ERROR_CODE) {
-                Toast.makeText(this, "cropping failed" + result.getError(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Cắt ảnh thất bại" + result.getError(), Toast.LENGTH_SHORT).show();
             }
         }
         super.onActivityResult(requestCode, resultCode, data);

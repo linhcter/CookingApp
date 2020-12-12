@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="my.food_on.app.ChefFoodPanel.Update_Delete_Dish">
+    tools:context="com.food_on.app.ChefFoodPanel.Update_Delete_Dish">
 
     <ImageButton
         android:id="@+id/imageupload"
@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginLeft="5dp"
-            android:text="Dish Name"
+            android:text="Tên món"
             android:textColor="@color/Black"
             android:textSize="17dp" />
 
@@ -61,7 +61,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Description"
+            android:hint="Mô tả"
             android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -81,7 +81,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Quantity"
+            android:hint="Số lượng"
             android:inputType="number" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -101,7 +101,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Price"
+            android:hint="Giá"
             android:inputType="number" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -125,7 +125,7 @@
             android:layout_gravity="center"
             android:background="@drawable/btnred"
             android:padding="10dp"
-            android:text="Update"
+            android:text="Cập nhật"
             android:textColor="@color/white" />
 
         <Button
@@ -137,7 +137,7 @@
             android:background="@drawable/button_shape"
             android:drawablePadding="5dp"
             android:padding="10dp"
-            android:text="Delete"
+            android:text="Xóa"
             android:textColor="@color/white" />
 
     </LinearLayout>

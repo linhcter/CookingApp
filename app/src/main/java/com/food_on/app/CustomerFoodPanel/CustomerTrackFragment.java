@@ -90,7 +90,7 @@ public class CustomerTrackFragment extends Fragment {
                         @Override
                         public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                             CustomerFinalOrders1 customerFinalOrders1 = dataSnapshot.getValue(CustomerFinalOrders1.class);
-                            grandtotal.setText("₹ " + customerFinalOrders1.getGrandTotalPrice());
+                            grandtotal.setText("đ " + customerFinalOrders1.getGrandTotalPrice());
                             Address.setText(customerFinalOrders1.getAddress());
                             Status.setText(customerFinalOrders1.getStatus());
 

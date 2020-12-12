@@ -1,7 +1,7 @@
 package com.food_on.app.ChefFoodPanel;
 
 public class ChefFinalOrders {
-
+//Database của cái FinalOrderView
     private String ChefId,DishId,DishName,DishPrice,DishQuantity,RandomUID,TotalPrice,UserId;
 
     public ChefFinalOrders(String chefId, String dishId, String dishName, String dishPrice, String dishQuantity, String randomUID, String totalPrice, String userId) {

@@ -24,6 +24,7 @@ public class ChefProfileFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_chef_profile, container, false);
         getActivity().setTitle("Post Dish");
+        //animation
         AnimationDrawable animationDrawable = new AnimationDrawable();
         animationDrawable.addFrame(getResources().getDrawable(R.drawable.bghome2), 3000);
         animationDrawable.addFrame(getResources().getDrawable(R.drawable.pic2), 3000);
@@ -46,7 +47,7 @@ public class ChefProfileFragment extends Fragment {
         bgimage = v.findViewById(R.id.back1);
         bgimage.setBackgroundDrawable(animationDrawable);
         animationDrawable.start();
-
+//end animation
         post = (Button) v.findViewById(R.id.post_dish);
         post.setOnClickListener(new View.OnClickListener() {
             @Override

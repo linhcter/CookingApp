@@ -60,7 +60,7 @@ public class Delivery_ShippingOrder extends AppCompatActivity {
         Custname = (TextView) findViewById(R.id.ShipName1);
         l1 = (LinearLayout) findViewById(R.id.linear3);
         l2 = (LinearLayout) findViewById(R.id.linearl1);
-        Call = (Button) findViewById(R.id.call2);
+//        Call = (Button) findViewById(R.id.call2);
         Shipped = (Button) findViewById(R.id.shipped2);
         apiService = Client.getClient("https://fcm.googleapis.com/").create(APIService.class);
         Shipped();
@@ -76,10 +76,10 @@ public class Delivery_ShippingOrder extends AppCompatActivity {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                 DeliveryShipFinalOrders1 deliveryShipFinalOrders1 = dataSnapshot.getValue(DeliveryShipFinalOrders1.class);
-                grandtotal.setText("₹ " + deliveryShipFinalOrders1.getGrandTotalPrice());
+                grandtotal.setText("đ " + deliveryShipFinalOrders1.getGrandTotalPrice());
                 Address.setText(deliveryShipFinalOrders1.getAddress());
                 Custname.setText(deliveryShipFinalOrders1.getName());
-                MobileNumber.setText("+91" + deliveryShipFinalOrders1.getMobileNumber());
+                MobileNumber.setText("+84" + deliveryShipFinalOrders1.getMobileNumber());
                 ChefName.setText("Chef " + deliveryShipFinalOrders1.getChefName());
                 userid = deliveryShipFinalOrders1.getUserId();
                 Chefid = deliveryShipFinalOrders1.getChefId();

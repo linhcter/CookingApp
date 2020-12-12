@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="my.food_on.app.ChefFoodPanel.Chef_PostDish"
-    android:background="@drawable/pic14">
+    tools:context="com.food_on.app.ChefFoodPanel.Chef_PostDish"
+    android:background="@drawable/hinhnen">
 
 
     <LinearLayout
@@ -18,14 +18,15 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.312">
+        app:layout_constraintVertical_bias="0.312"
+        android:layout_marginTop="30dp">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="105dp"
             android:layout_height="30dp"
             android:layout_marginLeft="5dp"
-            android:text="Dish Name"
+            android:text="Tên mḾn "
             android:textColor="@color/white"
             android:textSize="17dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -40,8 +41,8 @@
             android:layout_width="162dp"
             android:layout_height="30dp"
             android:layout_marginLeft="12dp"
-            android:entries="@array/DishName"
             android:background="@color/white"
+            android:entries="@array/DishName"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -65,7 +66,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Description"
+            android:hint="Mô Tả"
             android:textColor="@color/white"
             android:inputType="text" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -85,9 +86,9 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Quantity"
-            android:textColor="@color/white"
-            android:inputType="number" />
+            android:hint="Số lượng"
+            android:inputType="number"
+            android:textColor="@color/white" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -105,7 +106,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Price"
+            android:hint="Giá"
             android:textColor="@color/white"
             android:inputType="number" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -115,7 +116,7 @@
         android:layout_width="240dp"
         android:layout_height="wrap_content"
         android:background="@drawable/btnred"
-        android:text="Post"
+        android:text="Thêm"
         android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -137,7 +138,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.363"
         app:srcCompat="@drawable/ic_camera_alt_black_24dp"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="5dp"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

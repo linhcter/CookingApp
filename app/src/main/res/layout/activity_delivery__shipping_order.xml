@@ -4,18 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="my.food_on.app.DeliveryFoodPanel.Delivery_ShippingOrder">
+
+    tools:context="com.food_on.app.DeliveryFoodPanel.Delivery_ShippingOrder">
 
 
     <TextView
         android:id="@+id/ad3"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="50dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="200dp"
         android:layout_marginRight="15dp"
         android:background="@color/OffWhite"
-        android:text="Address"
+        android:text="Địa chỉ"
         android:textColor="@color/Black"
         android:textSize="30dp" />
 
@@ -23,7 +24,9 @@
         android:id="@+id/linear3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/ad3"
         android:layout_alignParentBottom="true"
+        android:layout_marginTop="50dp"
         android:layout_marginBottom="20dp"
         android:orientation="vertical">
 
@@ -41,10 +44,10 @@
                 android:layout_height="35dp"
                 android:layout_marginLeft="15dp"
                 android:gravity="center_vertical"
-                android:textStyle="bold"
-                android:text="Grand Total:"
+                android:text="Tổng:"
                 android:textColor="#000000"
-                android:textSize="20dp" />
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
 
             <LinearLayout
@@ -59,11 +62,11 @@
                     android:layout_width="wrap_content"
                     android:layout_height="35dp"
                     android:layout_marginRight="15dp"
-                    android:textStyle="bold"
                     android:gravity="center_vertical"
                     android:text=""
                     android:textColor="#000000"
-                    android:textSize="20dp" />
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
             </LinearLayout>
 
         </LinearLayout>
@@ -81,12 +84,12 @@
                 android:layout_width="wrap_content"
                 android:layout_height="35dp"
                 android:layout_marginLeft="15dp"
-                android:gravity="center_vertical"
                 android:fontFamily="@font/caudex"
-                android:text="Chef Name"
-                android:textStyle="bold"
-                android:textColor="#FA3E03"
-                android:textSize="20dp" />
+                android:gravity="center_vertical"
+                android:text="Name"
+                android:textColor="#090908"
+                android:textSize="20dp"
+                android:textStyle="bold" />
         </LinearLayout>
 
 
@@ -107,7 +110,7 @@
                 android:layout_marginTop="10dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="5dp"
-                android:text="Name"
+                android:text="Tên món"
                 android:textAllCaps="false"
                 android:textColor="@color/Black"
                 android:textSize="18dp" />
@@ -120,12 +123,12 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="10dp"
                 android:gravity="center_vertical"
-                android:textStyle="bold"
                 android:paddingLeft="5dp"
-                android:text="Mobile number"
+                android:text="số điện thoại"
                 android:textAllCaps="false"
                 android:textColor="@color/darkgray"
-                android:textSize="18dp" />
+                android:textSize="18dp"
+                android:textStyle="bold" />
 
         </LinearLayout>
 
@@ -137,26 +140,16 @@
             android:orientation="horizontal"
             android:weightSum="2">
 
-            <Button
-                android:id="@+id/call2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
-                android:layout_weight="1"
-                android:textAlignment="center"
-                android:background="@drawable/btnred"
-                android:text="Call"
-                android:textColor="@color/white" />
 
             <Button
                 android:id="@+id/shipped2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="40dp"
+                android:layout_marginLeft="90dp"
                 android:layout_marginRight="25dp"
                 android:layout_weight="1"
-                android:background="@drawable/btnblueish"
-                android:text="Shipped"
+                android:background="@drawable/btnred"
+                android:text="Giao hàng thành công"
                 android:textColor="@color/white" />
 
 

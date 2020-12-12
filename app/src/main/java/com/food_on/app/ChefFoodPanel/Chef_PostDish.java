@@ -44,7 +44,7 @@ import com.theartofdev.edmodo.cropper.CropImageView;
 import java.util.UUID;
 
 public class Chef_PostDish extends AppCompatActivity {
-
+//
 
     ImageButton imageButton;
     Button post_dish;
@@ -109,7 +109,10 @@ public class Chef_PostDish extends AppCompatActivity {
 
                             if (isValid()) {
                                 uploadImage();
+                                Intent intent = new Intent(Chef_PostDish.this, ChefHomeFragment.class);
+                                startActivity(intent);
                             }
+
                         }
                     });
                 }
@@ -122,10 +125,11 @@ public class Chef_PostDish extends AppCompatActivity {
 
         } catch (Exception e) {
 
-            Log.e("Errrrrr: ", e.getMessage());
+            Log.e("Lỗi: ", e.getMessage());
         }
     }
 
+//nếu mà nhập sai trong editText thì nó sẽ báo lỗi như dưới
     private boolean isValid() {
         desc.setErrorEnabled(false);
         desc.setError("");
@@ -160,18 +164,17 @@ public class Chef_PostDish extends AppCompatActivity {
 
         return isvalid;
     }
-
+//Cái này là cái hàm thêm món khi mà bấm vào nút thêm
     private void uploadImage() {
-
         if (imageuri != null) {
             final ProgressDialog progressDialog = new ProgressDialog(Chef_PostDish.this);
             progressDialog.setTitle("Uploading...");
             progressDialog.show();
+//            progressDialog.dismiss();
             RandomUId = UUID.randomUUID().toString();
             ref = storageReference.child(RandomUId);
             ChefId = FirebaseAuth.getInstance().getCurrentUser().getUid();
             ref.putFile(imageuri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
-
                 @Override
                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                     ref.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
@@ -183,7 +186,8 @@ public class Chef_PostDish extends AppCompatActivity {
                                 @Override
                                 public void onComplete(@NonNull Task<Void> task) {
                                     progressDialog.dismiss();
-                                    Toast.makeText(Chef_PostDish.this, "Dish posted successfully", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(Chef_PostDish.this, "Thêm món thành công", Toast.LENGTH_SHORT).show();
+
                                 }
                             });
                         }
@@ -193,8 +197,9 @@ public class Chef_PostDish extends AppCompatActivity {
             }).addOnFailureListener(new OnFailureListener() {
                 @Override
                 public void onFailure(@NonNull Exception e) {
-
+//                    progressDialog.show();
                     progressDialog.dismiss();
+
                     Toast.makeText(Chef_PostDish.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                 }
             }).addOnProgressListener(new OnProgressListener<UploadTask.TaskSnapshot>() {
@@ -210,7 +215,7 @@ public class Chef_PostDish extends AppCompatActivity {
 
     }
 
-
+//Hàm Crop là nguyên hàm dưới, nó chỉ sao làm vậy chứ cũng éo hiểu đâu =))))
     private void onSelectImageClick(View v) {
 
         CropImage.startPickImageActivity(this);
@@ -238,9 +243,9 @@ public class Chef_PostDish extends AppCompatActivity {
             CropImage.ActivityResult result = CropImage.getActivityResult(data);
             if (resultCode == RESULT_OK) {
                 ((ImageButton) findViewById(R.id.imageupload)).setImageURI(result.getUri());
-                Toast.makeText(this, "Cropped Successfully", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Cắt ảnh thành công", Toast.LENGTH_SHORT).show();
             } else if (resultCode == CropImage.CROP_IMAGE_ACTIVITY_RESULT_ERROR_CODE) {
-                Toast.makeText(this, "Cropping failed" + result.getError(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Failed" + result.getError(), Toast.LENGTH_SHORT).show();
             }
         }
 

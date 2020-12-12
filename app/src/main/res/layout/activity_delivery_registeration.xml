@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/loginbackground"
-    tools:context="my.food_on.app.Delivery_registeration">
+    tools:context="com.food_on.app.Delivery_registeration">
 
     <ScrollView
         android:layout_width="280dp"

@@ -77,10 +77,10 @@ public class MainMenu extends AppCompatActivity {
         signinphone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent signphone = new Intent(MainMenu.this, ChooseOne.class);
-                signphone.putExtra("Home", "Phone");
-                startActivity(signphone);
-                finish();
+//                Intent signphone = new Intent(MainMenu.this, ChooseOne.class);
+//                signphone.putExtra("Home", "Phone");
+//                startActivity(signphone);
+//                finish();
             }
         });
 
