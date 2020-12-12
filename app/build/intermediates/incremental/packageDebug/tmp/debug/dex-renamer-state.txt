@@ -1,0 +1,4 @@
+#Fri Dec 11 15:51:31 ICT 2020
+base.0=D\:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

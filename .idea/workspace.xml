@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f319a20-001d-46df-a762-0866933ad7a2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/food_on/app/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/Chef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefFinalOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefFinalOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefFinalOrders1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefFinalOrders1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefHomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefHomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefOrderDishesAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefOrderDishesAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefOrderFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefOrderTobePrepared.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefOrderTobePreparedAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefOrderTobePreparedAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefOrdertobePrepareView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefOrdertobePrepareView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefOrdertobePrepareViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefOrdertobePrepareViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefPaymentOrders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefPaymentOrders1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefPendingOrders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefPendingOrders1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefPendingOrdersAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefPendingOrdersAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefPendingOrdersFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefPreparedOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefPreparedOrderAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefPreparedOrderAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefPreparedOrderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefPreparedOrderView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefPreparedOrderViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefPreparedOrderViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefProfileFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefWaitingOrders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefWaitingOrders1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/Chef_PostDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/Chef_PostDish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/Chef_order_dishes.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/Chef_order_dishes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefhomeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/ChefhomeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/FoodSupplyDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/UpdateDishModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/Update_Delete_Dish.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel/Update_Delete_Dish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel_BottomNavigation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefFoodPanel_BottomNavigation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefForgotPassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefRegisteration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefRegisteration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChefVerifyPhone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/Chefloginphone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/Chefsendotp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ChooseOne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/AlreadyOrdered.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerCartAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerCartAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerCartFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerFinalOrders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerFinalOrders1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerForgotpassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerHomeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerHomeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerHomeFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerOnlinePayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerOnlinePayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerOrderFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerPassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerPayment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerPaymentOTP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerPaymentOrders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerPaymentOrders1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerPendingOrders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerPendingOrders1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerPhoneSendOTP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerPhonenumber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerProfileFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerProfileFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerTrackAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerTrackAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerTrackFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/CustomerTrackFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/OrderDish.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/OrderDish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/PayableOrderAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/PayableOrderAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/PayableOrders.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/PayableOrders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/PendingOrders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/PendingOrdersAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel/PendingOrdersAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/CustomerFoodPanel_BottomNavigation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryPendingOrderFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryPendingOrderFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryPendingOrderFragmentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryPendingOrderFragmentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryPendingOrderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryPendingOrderView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryPendingOrderViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryPendingOrderViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryShipFinalOrders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryShipFinalOrders1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryShipOrderFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryShipOrderFragmentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryShipOrderFragmentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryShipOrderView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryShipOrderView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryShipOrderViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryShipOrderViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryShipOrders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/DeliveryShipOrders1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/Delivery_ShippingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/DeliveryFoodPanel/Delivery_ShippingOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/Delivery_FoodPanelBottomNavigation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/Delivery_ForgotPassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/Delivery_Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/Delivery_Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/Delivery_LoginPhone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/Delivery_SendOtp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/Delivery_VerifyPhone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/Delivery_registeration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/Delivery_registeration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ForgotPassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/LoginPhone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/MainMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/Registeration.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/Registeration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/ReusableCode/ReusableCodeForAll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/SendNotification/APIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/SendNotification/APIService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/SendNotification/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/SendNotification/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/SendNotification/MyFirebaseIdService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/SendNotification/MyFirebaseMessagingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/SendNotification/MyResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/SendNotification/NotificationSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/SendNotification/ShowNotification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/SendNotification/Token.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/VerifyPhone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/food_on/app/sendotp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/move.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/zoomin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/zoomout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/color/bottomcolour.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/background_shape.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bggg.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bghome2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btnblueish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btnblueish.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btnred.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btnred.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/button_shape.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_shape.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/camerabtnshape.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/elegant_btnshape.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_access_time_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_assignment_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_camera_alt_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_check_box_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_chef_hat_and_fork.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_content_paste_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_dish_spoon_knife.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_email_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_exit_to_app_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_food_tray.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_keyboard_arrow_right_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_local_phone_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_local_shipping_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_location_on_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_lock_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_neworder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_payment_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_person_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_restaurant_menu_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_right_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_rupee.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_schedule_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_search_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_shopping_cart_black_24dp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/loginbackground.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/phonewhite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/phonewhite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/pic9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/titleimg4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/whitemail.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/caudex.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef__post_dish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef__post_dish.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_food_panel__bottom_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_food_panel__bottom_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_forgot_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_forgot_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_order_dishes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_order_dishes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_order_tobe_prepared.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_order_tobe_prepared.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_ordertobe_prepare_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_ordertobe_prepare_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_prepared_order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_prepared_order.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_prepared_order_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_prepared_order_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_registeration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_registeration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_verify_phone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chef_verify_phone.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chefloginphone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chefloginphone.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_chefsendotp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_chefsendotp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_choose_one.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_choose_one.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_forgotpassword.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_forgotpassword.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_online_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_online_payment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_payment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_payment_otp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_payment_otp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_phone_send_otp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_phone_send_otp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_phonenumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_customer_phonenumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery__food_panel_bottom_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery__food_panel_bottom_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery__forgot_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery__forgot_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery__login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery__login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery__login_phone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery__login_phone.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery__send_otp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery__shipping_order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery__shipping_order.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery__verify_phone.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery_pending_order_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery_pending_order_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery_registeration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery_registeration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery_ship_order_view.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_delivery_ship_order_view.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_food_panel__bottom_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_food_panel__bottom_navigation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_forgot_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_forgot_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login_phone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login_phone.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_order_dish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_order_dish.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_payable_orders.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_payable_orders.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_pending_orders.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_pending_orders.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_registeration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_registeration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sendotp.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sendotp.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_update__delete__dish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_update__delete__dish.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_verify_phone.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_verify_phone.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/cart_placeorder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/cart_placeorder.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/chef_finalorder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/chef_finalorder.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/chef_menu_update_delete.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/chef_order_dishes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/chef_orders.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/chef_orders.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/chef_ordertobeprepared.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/chef_ordertobeprepared.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/chef_ordertobeprepared_view.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/chef_preparedorder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/chef_preparedorder.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/chef_preparedorderview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/customer_menudish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/customer_menudish.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/customer_payableorder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/customer_pendingorders.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/customer_trackorder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/delivery_pendingorder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/delivery_pendingorders.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/delivery_pendingorders.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/delivery_shiporders.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/delivery_shiporders.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/enter_address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/enter_address.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chef_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chef_order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chef_order.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chef_pendingorders.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chef_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_chef_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_customercart.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_customerhome.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_customerorder.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_customerorder.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_customerprofile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_customerprofile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_customertrack.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_customertrack.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_deliverypendingorder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_deliveryshiporder.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/pending_order_dishes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/shiporderview.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_navigation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/chef_bottom_navigation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/delivery_bottom_navigation.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/logout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/FoodOn_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/drawables.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/font_certs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/food_on/app/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FoodOn" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FoodOn" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="FoodOn" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kuyu4e2A0WdmaTxt7bC80q6ZIX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="android-custom-viewC:/Users/QuyDon/.gradle/caches/modules-2/files-2.1/com.hbb20/ccp/2.3.1/4a8b32769d8751a898527a8d7eba059fda7eddbd/ccp-2.3.1-sources.jar!/com/hbb20/CountryCodePicker.java_SELECTED" value="CountryCodePicker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-previewC:/Users/QuyDon/.gradle/caches/modules-2/files-2.1/com.hbb20/ccp/2.3.1/4a8b32769d8751a898527a8d7eba059fda7eddbd/ccp-2.3.1-sources.jar!/com/hbb20/CountryCodePicker.java_selected" value="Custom views" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\res\drawable" />
+      <recent name="D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\res\values" />
+      <recent name="D:\Downloads\FoodOn_FoodDelivery_by_Androrealm\app" />
+      <recent name="D:\Downloads\FoodOn_FoodDelivery_by_Androrealm\app\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="FoodOn.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FoodOn_FoodDelivery_by_Androrealm [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.FoodOn_FoodDelivery_by_Androrealm [signingReport]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f319a20-001d-46df-a762-0866933ad7a2" name="Default Changelist" comment="" />
+      <created>1606564992253</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606564992253</updated>
+    </task>
+    <task id="LOCAL-00001" summary="faff">
+      <created>1607786530464</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607786530464</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="faff" />
+    <option name="LAST_COMMIT_MESSAGE" value="faff" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="487" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606976964954">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="487" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1606976964954" />
+    <state x="316" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1607666426857">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="316" y="337" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1607666426857" />
+    <state x="93" y="93" width="1350" height="638" key="AVDManager" timestamp="1607345182393">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="AVDManager/0.0.1536.824@0.0.1536.824" timestamp="1607345182393" />
+    <state x="352" y="0" key="CommitChangelistDialog2" timestamp="1607786529431">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="352" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607786529431" />
+    <state x="100" y="100" width="1336" height="624" key="DiffContextDialog" timestamp="1607785935399">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="100" y="100" width="1336" height="624" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1607785935399" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1607777728417">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607777728417" />
+    <state width="1491" height="165" key="GridCell.Tab.0.bottom" timestamp="1607787677886">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="165" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607787677886" />
+    <state width="1491" height="165" key="GridCell.Tab.0.center" timestamp="1607787677886">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="165" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607787677886" />
+    <state width="1491" height="165" key="GridCell.Tab.0.left" timestamp="1607787677885">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="165" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607787677885" />
+    <state width="1491" height="165" key="GridCell.Tab.0.right" timestamp="1607787677886">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1491" height="165" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607787677886" />
+    <state x="471" y="221" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog" timestamp="1607345138905">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="471" y="221" key="com.android.tools.idea.run.deployment.ModifyDeviceSetDialog/0.0.1536.824@0.0.1536.824" timestamp="1607345138905" />
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607785634506">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="578" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1607785634506" />
+    <state x="467" y="314" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1607786495843">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="467" y="314" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.824@0.0.1536.824" timestamp="1607786495843" />
+  </component>
+</project>

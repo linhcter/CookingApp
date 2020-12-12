@@ -1,0 +1,576 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.food_on.app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:5:5-67
+11-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+14    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:19.3.1] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\227f78203b0b12a1d5db88f7e5b8d4d8\jetified-firebase-database-19.3.1\AndroidManifest.xml:25:5-79
+15-->[com.google.firebase:firebase-database:19.3.1] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\227f78203b0b12a1d5db88f7e5b8d4d8\jetified-firebase-database-19.3.1\AndroidManifest.xml:25:22-76
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:25:5-68
+16-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:25:22-65
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:26:22-107
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+18-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f664dd6348b9e6a7bebcc59e99301373\jetified-firebase-iid-20.2.3\AndroidManifest.xml:26:5-82
+18-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f664dd6348b9e6a7bebcc59e99301373\jetified-firebase-iid-20.2.3\AndroidManifest.xml:26:22-79
+19
+20    <application
+20-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:6:5-170:19
+21        android:allowBackup="true"
+21-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:7:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.3.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\71a649a18db048a533a3b2353514428a\core-1.3.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:8:9-43
+25        android:label="@string/app_name"
+25-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:9:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:10:9-54
+27        android:supportsRtl="true"
+27-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:11:9-35
+28        android:testOnly="true"
+29        android:theme="@style/AppTheme" >
+29-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:12:9-40
+30        <activity
+30-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:14:9-16:52
+31            android:name="com.food_on.app.DeliveryFoodPanel.Delivery_ShippingOrder"
+31-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:15:13-84
+32            android:label="Ship Orders" />
+32-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:16:13-40
+33        <activity
+33-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:17:9-19:43
+34            android:name="com.food_on.app.DeliveryFoodPanel.DeliveryShipOrderView"
+34-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:18:13-83
+35            android:label="Ship Orders" />
+35-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:19:13-40
+36        <activity
+36-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:20:9-22:46
+37            android:name="com.food_on.app.DeliveryFoodPanel.DeliveryPendingOrderView"
+37-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:21:13-86
+38            android:label="Pending Orders" />
+38-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:22:13-43
+39        <activity android:name="com.food_on.app.Delivery_FoodPanelBottomNavigation" />
+39-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:23:9-87
+39-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:23:19-84
+40        <activity
+40-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:24:9-26:58
+41            android:name="com.food_on.app.Delivery_SendOtp"
+41-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:25:13-60
+42            android:theme="@style/AppThemeNoActionbar" />
+42-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:26:13-55
+43        <activity
+43-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:27:9-29:58
+44            android:name="com.food_on.app.Delivery_ForgotPassword"
+44-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:28:13-67
+45            android:theme="@style/AppThemeNoActionbar" />
+45-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:29:13-55
+46        <activity
+46-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:30:9-32:58
+47            android:name="com.food_on.app.Delivery_Login"
+47-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:31:13-58
+48            android:theme="@style/AppThemeNoActionbar" />
+48-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:32:13-55
+49        <activity
+49-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:33:9-35:58
+50            android:name="com.food_on.app.Delivery_LoginPhone"
+50-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:34:13-63
+51            android:theme="@style/AppThemeNoActionbar" />
+51-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:35:13-55
+52        <activity
+52-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:36:9-38:58
+53            android:name="com.food_on.app.Delivery_VerifyPhone"
+53-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:37:13-64
+54            android:theme="@style/AppThemeNoActionbar" />
+54-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:38:13-55
+55        <activity
+55-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:39:9-41:58
+56            android:name="com.food_on.app.Delivery_registeration"
+56-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:40:13-66
+57            android:theme="@style/AppThemeNoActionbar" />
+57-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:41:13-55
+58        <activity
+58-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:42:9-44:47
+59            android:name="com.food_on.app.ChefFoodPanel.ChefPreparedOrderView"
+59-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:43:13-79
+60            android:label="Prepared Orders" />
+60-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:44:13-44
+61        <activity
+61-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:45:9-47:47
+62            android:name="com.food_on.app.ChefFoodPanel.ChefPreparedOrder"
+62-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:46:13-75
+63            android:label="Prepared Orders" />
+63-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:47:13-44
+64        <activity
+64-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:48:9-50:53
+65            android:name="com.food_on.app.ChefFoodPanel.ChefOrdertobePrepareView"
+65-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:49:13-82
+66            android:label="Orders to be Prepared" />
+66-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:50:13-50
+67        <activity
+67-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:51:9-53:53
+68            android:name="com.food_on.app.ChefFoodPanel.ChefOrderTobePrepared"
+68-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:52:13-79
+69            android:label="Orders to be Prepared" />
+69-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:53:13-50
+70        <activity
+70-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:54:9-56:46
+71            android:name="com.food_on.app.CustomerFoodPanel.CustomerPaymentOTP"
+71-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:55:13-80
+72            android:label="Online Payment" />
+72-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:56:13-43
+73        <activity
+73-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:57:9-59:46
+74            android:name="com.food_on.app.CustomerFoodPanel.CustomerOnlinePayment"
+74-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:58:13-83
+75            android:label="Online Payment" />
+75-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:59:13-43
+76        <activity
+76-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:60:9-62:46
+77            android:name="com.food_on.app.CustomerFoodPanel.CustomerPayment"
+77-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:61:13-77
+78            android:label="Payable Orders" />
+78-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:62:13-43
+79        <activity
+79-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:63:9-65:46
+80            android:name="com.food_on.app.CustomerFoodPanel.PayableOrders"
+80-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:64:13-75
+81            android:label="Payable Orders" />
+81-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:65:13-43
+82        <activity
+82-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:66:9-68:46
+83            android:name="com.food_on.app.CustomerFoodPanel.PendingOrders"
+83-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:67:13-75
+84            android:label="Pending Orders" />
+84-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:68:13-43
+85        <activity
+85-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:69:9-71:38
+86            android:name="com.food_on.app.ChefFoodPanel.Chef_order_dishes"
+86-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:70:13-75
+87            android:label="Orders" />
+87-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:71:13-35
+88        <activity
+88-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:72:9-74:45
+89            android:name="com.food_on.app.CustomerFoodPanel.CustomerPhoneSendOTP"
+89-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:73:13-82
+90            android:label="Mobile Number" />
+90-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:74:13-42
+91        <activity
+91-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:75:9-77:45
+92            android:name="com.food_on.app.CustomerFoodPanel.CustomerPhonenumber"
+92-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:76:13-81
+93            android:label="Mobile Number" />
+93-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:77:13-42
+94        <activity
+94-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:78:9-80:40
+95            android:name="com.food_on.app.CustomerFoodPanel.CustomerForgotpassword"
+95-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:79:13-84
+96            android:label="Password" />
+96-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:80:13-37
+97        <activity
+97-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:81:9-83:40
+98            android:name="com.food_on.app.CustomerFoodPanel.CustomerPassword"
+98-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:82:13-78
+99            android:label="Password" />
+99-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:83:13-37
+100        <activity android:name="com.food_on.app.CustomerFoodPanel.OrderDish" />
+100-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:84:9-80
+100-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:84:19-77
+101        <activity
+101-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:85:9-87:36
+102            android:name="com.food_on.app.ChefFoodPanel.Update_Delete_Dish"
+102-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:86:13-76
+103            android:label="Home" />
+103-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:87:13-33
+104        <activity
+104-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:88:9-90:41
+105            android:name="com.food_on.app.ChefFoodPanel.Chef_PostDish"
+105-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:89:13-71
+106            android:label="Post Dish" />
+106-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:90:13-38
+107        <activity
+107-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:91:9-93:59
+108            android:name="com.food_on.app.ChefFoodPanel_BottomNavigation"
+108-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:92:13-74
+109            android:windowSoftInputMode="adjustNothing" />
+109-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:93:13-56
+110        <activity
+110-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:94:9-96:59
+111            android:name="com.food_on.app.CustomerFoodPanel_BottomNavigation"
+111-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:95:13-78
+112            android:windowSoftInputMode="adjustNothing" />
+112-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:96:13-56
+113        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity" />
+113-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:97:9-85
+113-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:97:19-82
+114        <activity
+114-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:98:9-100:58
+115            android:name="com.food_on.app.MainMenu"
+115-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:99:13-52
+116            android:theme="@style/AppThemeNoActionbar" />
+116-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:100:13-55
+117        <activity
+117-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:101:9-103:58
+118            android:name="com.food_on.app.Chefsendotp"
+118-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:102:13-55
+119            android:theme="@style/AppThemeNoActionbar" />
+119-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:103:13-55
+120        <activity
+120-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:104:9-106:58
+121            android:name="com.food_on.app.Chefloginphone"
+121-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:105:13-58
+122            android:theme="@style/AppThemeNoActionbar" />
+122-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:106:13-55
+123        <activity
+123-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:107:9-109:58
+124            android:name="com.food_on.app.sendotp"
+124-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:108:13-51
+125            android:theme="@style/AppThemeNoActionbar" />
+125-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:109:13-55
+126        <activity
+126-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:110:9-112:58
+127            android:name="com.food_on.app.LoginPhone"
+127-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:111:13-54
+128            android:theme="@style/AppThemeNoActionbar" />
+128-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:112:13-55
+129        <activity
+129-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:113:9-115:58
+130            android:name="com.food_on.app.ChefVerifyPhone"
+130-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:114:13-59
+131            android:theme="@style/AppThemeNoActionbar" />
+131-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:115:13-55
+132        <activity
+132-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:116:9-118:58
+133            android:name="com.food_on.app.VerifyPhone"
+133-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:117:13-55
+134            android:theme="@style/AppThemeNoActionbar" />
+134-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:118:13-55
+135        <activity
+135-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:119:9-121:58
+136            android:name="com.food_on.app.ChefForgotPassword"
+136-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:120:13-62
+137            android:theme="@style/AppThemeNoActionbar" />
+137-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:121:13-55
+138        <activity
+138-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:122:9-124:58
+139            android:name="com.food_on.app.ChefLogin"
+139-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:123:13-53
+140            android:theme="@style/AppThemeNoActionbar" />
+140-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:124:13-55
+141        <activity
+141-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:125:9-127:58
+142            android:name="com.food_on.app.ChooseOne"
+142-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:126:13-53
+143            android:theme="@style/AppThemeNoActionbar" />
+143-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:127:13-55
+144        <activity
+144-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:128:9-130:58
+145            android:name="com.food_on.app.ChefRegisteration"
+145-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:129:13-61
+146            android:theme="@style/AppThemeNoActionbar" />
+146-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:130:13-55
+147        <activity
+147-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:131:9-133:58
+148            android:name="com.food_on.app.ForgotPassword"
+148-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:132:13-58
+149            android:theme="@style/AppThemeNoActionbar" />
+149-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:133:13-55
+150        <activity
+150-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:134:9-136:58
+151            android:name="com.food_on.app.Login"
+151-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:135:13-49
+152            android:theme="@style/AppThemeNoActionbar" />
+152-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:136:13-55
+153        <activity
+153-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:137:9-139:58
+154            android:name="com.food_on.app.Registeration"
+154-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:138:13-57
+155            android:theme="@style/AppThemeNoActionbar" />
+155-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:139:13-55
+156        <activity
+156-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:140:9-148:20
+157            android:name="com.food_on.app.MainActivity"
+157-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:141:13-56
+158            android:theme="@style/AppThemeNoActionbar" >
+158-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:142:13-55
+159            <intent-filter>
+159-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:143:13-147:29
+160                <action android:name="android.intent.action.MAIN" />
+160-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:144:17-69
+160-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:144:25-66
+161
+162                <category android:name="android.intent.category.LAUNCHER" />
+162-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:146:17-77
+162-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:146:27-74
+163            </intent-filter>
+164        </activity>
+165
+166        <service
+166-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:150:9-157:19
+167            android:name="com.food_on.app.SendNotification.MyFirebaseMessagingService"
+167-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:151:13-87
+168            android:enabled="true"
+168-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:152:13-35
+169            android:exported="true" >
+169-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:153:13-36
+170            <intent-filter>
+170-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:154:13-156:29
+171                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+171-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:155:17-78
+171-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:155:25-75
+172            </intent-filter>
+173        </service>
+174        <service
+174-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:158:9-165:19
+175            android:name="com.food_on.app.SendNotification.MyFirebaseIdService"
+175-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:159:13-80
+176            android:enabled="true"
+176-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:160:13-35
+177            android:exported="true" >
+177-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:161:13-36
+178            <intent-filter>
+178-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:162:13-164:29
+179                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+179-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:163:17-80
+179-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:163:25-77
+180            </intent-filter>
+181        </service>
+182
+183        <meta-data
+183-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:167:9-169:57
+184            android:name="preloaded_fonts"
+184-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:168:13-43
+185            android:resource="@array/preloaded_fonts" />
+185-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:169:13-54
+186
+187        <activity
+187-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\16a303518ddb9c4f6d04d81a3a04d0b3\jetified-firebase-auth-19.3.2\AndroidManifest.xml:24:9-31:50
+188            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+188-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\16a303518ddb9c4f6d04d81a3a04d0b3\jetified-firebase-auth-19.3.2\AndroidManifest.xml:25:13-85
+189            android:excludeFromRecents="true"
+189-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\16a303518ddb9c4f6d04d81a3a04d0b3\jetified-firebase-auth-19.3.2\AndroidManifest.xml:26:13-46
+190            android:exported="true"
+190-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\16a303518ddb9c4f6d04d81a3a04d0b3\jetified-firebase-auth-19.3.2\AndroidManifest.xml:27:13-36
+191            android:launchMode="singleTask"
+191-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\16a303518ddb9c4f6d04d81a3a04d0b3\jetified-firebase-auth-19.3.2\AndroidManifest.xml:28:13-44
+192            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+192-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\16a303518ddb9c4f6d04d81a3a04d0b3\jetified-firebase-auth-19.3.2\AndroidManifest.xml:29:13-102
+193            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+193-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\16a303518ddb9c4f6d04d81a3a04d0b3\jetified-firebase-auth-19.3.2\AndroidManifest.xml:30:13-72
+194
+195        <service
+195-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\16a303518ddb9c4f6d04d81a3a04d0b3\jetified-firebase-auth-19.3.2\AndroidManifest.xml:33:9-39:19
+196            android:name="com.google.firebase.components.ComponentDiscoveryService"
+196-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\16a303518ddb9c4f6d04d81a3a04d0b3\jetified-firebase-auth-19.3.2\AndroidManifest.xml:34:13-84
+197            android:directBootAware="true"
+197-->[com.google.firebase:firebase-common:19.3.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\d5ae2f905dca277d72c2333071856016\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+198            android:exported="false" >
+198-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\16a303518ddb9c4f6d04d81a3a04d0b3\jetified-firebase-auth-19.3.2\AndroidManifest.xml:35:13-37
+199            <meta-data
+199-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\16a303518ddb9c4f6d04d81a3a04d0b3\jetified-firebase-auth-19.3.2\AndroidManifest.xml:36:13-38:85
+200                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+200-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\16a303518ddb9c4f6d04d81a3a04d0b3\jetified-firebase-auth-19.3.2\AndroidManifest.xml:37:17-109
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[com.google.firebase:firebase-auth:19.3.2] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\16a303518ddb9c4f6d04d81a3a04d0b3\jetified-firebase-auth-19.3.2\AndroidManifest.xml:38:17-82
+202            <meta-data
+202-->[com.google.firebase:firebase-database:19.3.1] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\227f78203b0b12a1d5db88f7e5b8d4d8\jetified-firebase-database-19.3.1\AndroidManifest.xml:32:13-34:85
+203                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+203-->[com.google.firebase:firebase-database:19.3.1] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\227f78203b0b12a1d5db88f7e5b8d4d8\jetified-firebase-database-19.3.1\AndroidManifest.xml:33:17-109
+204                android:value="com.google.firebase.components.ComponentRegistrar" />
+204-->[com.google.firebase:firebase-database:19.3.1] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\227f78203b0b12a1d5db88f7e5b8d4d8\jetified-firebase-database-19.3.1\AndroidManifest.xml:34:17-82
+205            <meta-data
+205-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\2bae4ed60042b5247600f13f46496519\jetified-firebase-storage-19.1.1\AndroidManifest.xml:33:13-35:85
+206                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+206-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\2bae4ed60042b5247600f13f46496519\jetified-firebase-storage-19.1.1\AndroidManifest.xml:34:17-107
+207                android:value="com.google.firebase.components.ComponentRegistrar" />
+207-->[com.google.firebase:firebase-storage:19.1.1] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\2bae4ed60042b5247600f13f46496519\jetified-firebase-storage-19.1.1\AndroidManifest.xml:35:17-82
+208            <meta-data
+208-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\6b672cdab6f3710d39b92a68d96f9c5a\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:39:13-41:85
+209                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+209-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\6b672cdab6f3710d39b92a68d96f9c5a\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:40:17-119
+210                android:value="com.google.firebase.components.ComponentRegistrar" />
+210-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\6b672cdab6f3710d39b92a68d96f9c5a\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:41:17-82
+211            <meta-data
+211-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\aee5905e3b36f3b29067cb6b798e3d80\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:30:13-32:85
+212                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+212-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\aee5905e3b36f3b29067cb6b798e3d80\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:31:17-139
+213                android:value="com.google.firebase.components.ComponentRegistrar" />
+213-->[com.google.android.gms:play-services-measurement-api:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\aee5905e3b36f3b29067cb6b798e3d80\jetified-play-services-measurement-api-17.4.4\AndroidManifest.xml:32:17-82
+214            <meta-data
+214-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f664dd6348b9e6a7bebcc59e99301373\jetified-firebase-iid-20.2.3\AndroidManifest.xml:32:13-34:85
+215                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+215-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f664dd6348b9e6a7bebcc59e99301373\jetified-firebase-iid-20.2.3\AndroidManifest.xml:33:17-96
+216                android:value="com.google.firebase.components.ComponentRegistrar" />
+216-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f664dd6348b9e6a7bebcc59e99301373\jetified-firebase-iid-20.2.3\AndroidManifest.xml:34:17-82
+217            <meta-data
+217-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\ec6ed60bc769c1397d2bb4044e417511\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
+218                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+218-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\ec6ed60bc769c1397d2bb4044e417511\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
+219                android:value="com.google.firebase.components.ComponentRegistrar" />
+219-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\ec6ed60bc769c1397d2bb4044e417511\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
+220            <meta-data
+220-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\4d2d6e18a23e71677122246f9e56e667\jetified-firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+221                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+221-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\4d2d6e18a23e71677122246f9e56e667\jetified-firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+222                android:value="com.google.firebase.components.ComponentRegistrar" />
+222-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\4d2d6e18a23e71677122246f9e56e667\jetified-firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+223        </service>
+224
+225        <provider
+225-->[com.squareup.picasso:picasso:2.71828] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\b655a967ec0a97c3d7cd9c6c6030fa4d\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+226            android:name="com.squareup.picasso.PicassoProvider"
+226-->[com.squareup.picasso:picasso:2.71828] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\b655a967ec0a97c3d7cd9c6c6030fa4d\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+227            android:authorities="com.food_on.app.com.squareup.picasso"
+227-->[com.squareup.picasso:picasso:2.71828] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\b655a967ec0a97c3d7cd9c6c6030fa4d\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+228            android:exported="false" />
+228-->[com.squareup.picasso:picasso:2.71828] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\b655a967ec0a97c3d7cd9c6c6030fa4d\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+229        <!--
+230             FirebaseMessagingService performs security checks at runtime,
+231             but set to not exported to explicitly avoid allowing another app to call it.
+232        -->
+233        <service
+233-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\6b672cdab6f3710d39b92a68d96f9c5a\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:28:9-35:19
+234            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+234-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\6b672cdab6f3710d39b92a68d96f9c5a\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:29:13-82
+235            android:directBootAware="true"
+235-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\6b672cdab6f3710d39b92a68d96f9c5a\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:30:13-43
+236            android:exported="false" >
+236-->[com.google.firebase:firebase-messaging:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\6b672cdab6f3710d39b92a68d96f9c5a\jetified-firebase-messaging-20.2.3\AndroidManifest.xml:31:13-37
+237            <intent-filter android:priority="-500" >
+237-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:154:13-156:29
+238                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+238-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:155:17-78
+238-->D:\DuAn1\New folder\FoodOn_FoodDelivery_by_Androrealm\app\src\main\AndroidManifest.xml:155:25-75
+239            </intent-filter>
+240        </service>
+241
+242        <receiver
+242-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:29:9-33:20
+243            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+243-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:30:13-85
+244            android:enabled="true"
+244-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:31:13-35
+245            android:exported="false" >
+245-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:32:13-37
+246        </receiver>
+247
+248        <service
+248-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:35:9-38:40
+249            android:name="com.google.android.gms.measurement.AppMeasurementService"
+249-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:36:13-84
+250            android:enabled="true"
+250-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:37:13-35
+251            android:exported="false" />
+251-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:38:13-37
+252        <service
+252-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:39:9-43:72
+253            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+253-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:40:13-87
+254            android:enabled="true"
+254-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:41:13-35
+255            android:exported="false"
+255-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:42:13-37
+256            android:permission="android.permission.BIND_JOB_SERVICE" />
+256-->[com.google.android.gms:play-services-measurement:17.4.4] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f3a33ad86e72ec0d49a4f57f6d1744c7\jetified-play-services-measurement-17.4.4\AndroidManifest.xml:43:13-69
+257
+258        <receiver
+258-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f664dd6348b9e6a7bebcc59e99301373\jetified-firebase-iid-20.2.3\AndroidManifest.xml:37:9-44:20
+259            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+259-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f664dd6348b9e6a7bebcc59e99301373\jetified-firebase-iid-20.2.3\AndroidManifest.xml:38:13-78
+260            android:exported="true"
+260-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f664dd6348b9e6a7bebcc59e99301373\jetified-firebase-iid-20.2.3\AndroidManifest.xml:39:13-36
+261            android:permission="com.google.android.c2dm.permission.SEND" >
+261-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f664dd6348b9e6a7bebcc59e99301373\jetified-firebase-iid-20.2.3\AndroidManifest.xml:40:13-73
+262            <intent-filter>
+262-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f664dd6348b9e6a7bebcc59e99301373\jetified-firebase-iid-20.2.3\AndroidManifest.xml:41:13-43:29
+263                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+263-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f664dd6348b9e6a7bebcc59e99301373\jetified-firebase-iid-20.2.3\AndroidManifest.xml:42:17-81
+263-->[com.google.firebase:firebase-iid:20.2.3] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f664dd6348b9e6a7bebcc59e99301373\jetified-firebase-iid-20.2.3\AndroidManifest.xml:42:25-78
+264            </intent-filter>
+265        </receiver>
+266
+267        <provider
+267-->[com.google.firebase:firebase-common:19.3.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\d5ae2f905dca277d72c2333071856016\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+268            android:name="com.google.firebase.provider.FirebaseInitProvider"
+268-->[com.google.firebase:firebase-common:19.3.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\d5ae2f905dca277d72c2333071856016\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+269            android:authorities="com.food_on.app.firebaseinitprovider"
+269-->[com.google.firebase:firebase-common:19.3.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\d5ae2f905dca277d72c2333071856016\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+270            android:exported="false"
+270-->[com.google.firebase:firebase-common:19.3.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\d5ae2f905dca277d72c2333071856016\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+271            android:initOrder="100" />
+271-->[com.google.firebase:firebase-common:19.3.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\d5ae2f905dca277d72c2333071856016\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+272
+273        <activity
+273-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\73f874509465423414ab7604a318e1cc\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+274            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+274-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\73f874509465423414ab7604a318e1cc\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+275            android:exported="false"
+275-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\73f874509465423414ab7604a318e1cc\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+276            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+276-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\73f874509465423414ab7604a318e1cc\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+277
+278        <meta-data
+278-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f258e3825c6af3b14c7ec1616fae4742\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+279            android:name="com.google.android.gms.version"
+279-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f258e3825c6af3b14c7ec1616fae4742\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+280            android:value="@integer/google_play_services_version" />
+280-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\f258e3825c6af3b14c7ec1616fae4742\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+281
+282        <provider
+282-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\fbb45a1792cf0e97ccf5507b087b63b1\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+283            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+283-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\fbb45a1792cf0e97ccf5507b087b63b1\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+284            android:authorities="com.food_on.app.lifecycle-process"
+284-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\fbb45a1792cf0e97ccf5507b087b63b1\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+285            android:exported="false"
+285-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\fbb45a1792cf0e97ccf5507b087b63b1\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+286            android:multiprocess="true" />
+286-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\fbb45a1792cf0e97ccf5507b087b63b1\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+287
+288        <service
+288-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\8e8493fc4060d1a9e60e0e8b89d28daa\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
+289            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+289-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\8e8493fc4060d1a9e60e0e8b89d28daa\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
+290            android:exported="false" >
+290-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\8e8493fc4060d1a9e60e0e8b89d28daa\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
+291            <meta-data
+291-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\8e8493fc4060d1a9e60e0e8b89d28daa\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
+292                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+292-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\8e8493fc4060d1a9e60e0e8b89d28daa\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
+293                android:value="cct" />
+293-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\8e8493fc4060d1a9e60e0e8b89d28daa\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
+294        </service>
+295        <service
+295-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\09a4bf673ec4891d08a21c203c688e10\jetified-transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
+296            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+296-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\09a4bf673ec4891d08a21c203c688e10\jetified-transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
+297            android:exported="false"
+297-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\09a4bf673ec4891d08a21c203c688e10\jetified-transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
+298            android:permission="android.permission.BIND_JOB_SERVICE" >
+298-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\09a4bf673ec4891d08a21c203c688e10\jetified-transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
+299        </service>
+300
+301        <receiver
+301-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\09a4bf673ec4891d08a21c203c688e10\jetified-transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
+302            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+302-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\09a4bf673ec4891d08a21c203c688e10\jetified-transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
+303            android:exported="false" />
+303-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\QuyDon\.gradle\caches\transforms-2\files-2.1\09a4bf673ec4891d08a21c203c688e10\jetified-transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
+304    </application>
+305
+306</manifest>

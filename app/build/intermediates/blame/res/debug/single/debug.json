@@ -1,0 +1,634 @@
+[
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_chef_preparedorderview.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\chef_preparedorderview.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_delivery_pendingorder.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\delivery_pendingorder.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_choose_one.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_choose_one.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_cart_placeorder.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\cart_placeorder.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_delivery_shiporders.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\delivery_shiporders.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_dish_spoon_knife.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_dish_spoon_knife.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bghome2.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\bghome2.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_shape.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\background_shape.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delivery__send_otp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_delivery__send_otp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic5.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic5.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_chef_orders.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\chef_orders.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chef_prepared_order.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_chef_prepared_order.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_elegant_btnshape.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\elegant_btnshape.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delivery_ship_order_view.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_delivery_ship_order_view.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_chef_home.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\fragment_chef_home.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_payment_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_payment_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_rupee.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_rupee.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chefloginphone.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_chefloginphone.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\menu_chef_bottom_navigation.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\menu\\chef_bottom_navigation.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_content_paste_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_content_paste_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_assignment_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_assignment_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic13.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic13.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delivery__verify_phone.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_delivery__verify_phone.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_customer_online_payment.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_customer_online_payment.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delivery__login.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_delivery__login.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_chef_finalorder.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\chef_finalorder.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sendotp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_sendotp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chef_verify_phone.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_chef_verify_phone.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic4.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic4.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chef_forgot_password.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_chef_forgot_password.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_money_24.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_money_24.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_customer_trackorder.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\customer_trackorder.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_pending_order_dishes.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\pending_order_dishes.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_food_tray.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_food_tray.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_whitemail.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\whitemail.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_customerorder.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\fragment_customerorder.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_customerhome.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\fragment_customerhome.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_update__delete__dish.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_update__delete__dish.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_chef_order_dishes.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\chef_order_dishes.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_chef_menu_update_delete.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\chef_menu_update_delete.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_shiporderview.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\shiporderview.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_enter_address.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\enter_address.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_food_panel__bottom_navigation.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_food_panel__bottom_navigation.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic6.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic6.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btnred.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\btnred.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic18.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic18.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_customer_phone_send_otp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_customer_phone_send_otp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delivery__food_panel_bottom_navigation.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_delivery__food_panel_bottom_navigation.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_keyboard_arrow_right_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_keyboard_arrow_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_chef_preparedorder.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\chef_preparedorder.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delivery__login_phone.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_delivery__login_phone.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic3.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic3.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_customertrack.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\fragment_customertrack.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic15.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic15.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payable_orders.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_payable_orders.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_customer_payment_otp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_customer_payment_otp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_customerprofile.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\fragment_customerprofile.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_access_time_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_access_time_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_chef_profile.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\fragment_chef_profile.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_loginbackground.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\loginbackground.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_phone.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_login_phone.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_neworder.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_neworder.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgot_password.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_customer_payment.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_customer_payment.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\font_caudex.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\font\\caudex.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_deliverypendingorder.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\fragment_deliverypendingorder.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btnblueish.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\btnblueish.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic9.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic9.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_customer_password.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_customer_password.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic12.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic12.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic8.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic8.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\menu_bottom_navigation.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\menu\\bottom_navigation.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_chef_ordertobeprepared_view.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\chef_ordertobeprepared_view.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic16.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic16.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delivery_pending_order_view.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_delivery_pending_order_view.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic1.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic1.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chef_prepared_order_view.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_chef_prepared_order_view.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\menu_logout.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\menu\\logout.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_titleimg4.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\titleimg4.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_restaurant_menu_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_restaurant_menu_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_camerabtnshape.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\camerabtnshape.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_right_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\menu_delivery_bottom_navigation.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\menu\\delivery_bottom_navigation.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chef_ordertobe_prepare_view.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_chef_ordertobe_prepare_view.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_deliveryshiporder.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\fragment_deliveryshiporder.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_local_shipping_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_local_shipping_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\menu_search.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\menu\\search.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_customer_menudish.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\customer_menudish.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_customer_phonenumber.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_customer_phonenumber.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic7.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic7.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\anim_zoomout.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\anim\\zoomout.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\anim_move.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\anim\\move.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delivery_registeration.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_delivery_registeration.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chef_login.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_chef_login.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_shopping_cart_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_shopping_cart_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_camera_alt_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_camera_alt_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bggg.jpeg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\bggg.jpeg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_check_box_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_check_box_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delivery__shipping_order.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_delivery__shipping_order.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_shape.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\button_shape.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic10.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic10.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic17.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic17.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pending_orders.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_pending_orders.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chef_registeration.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_chef_registeration.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\anim_zoomin.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\anim\\zoomin.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_verify_phone.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_verify_phone.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_customer_forgotpassword.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_customer_forgotpassword.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_local_phone_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_local_phone_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_chef_ordertobeprepared.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\chef_ordertobeprepared.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_registeration.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_registeration.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chefsendotp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_chefsendotp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_delivery__forgot_password.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_delivery__forgot_password.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_customer_pendingorders.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\customer_pendingorders.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_delivery_pendingorders.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\delivery_pendingorders.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_location_on_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_location_on_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic14.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic14.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chef__post_dish.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_chef__post_dish.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hinhnen.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\hinhnen.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic11.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic11.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chef_food_panel__bottom_navigation.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_chef_food_panel__bottom_navigation.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_email_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_email_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\color_bottomcolour.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\color\\bottomcolour.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_chef_order.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\fragment_chef_order.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_customercart.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\fragment_customercart.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_dish.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_order_dish.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lock_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_lock_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_chef_hat_and_fork.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_chef_hat_and_fork.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chef_order_tobe_prepared.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_chef_order_tobe_prepared.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chef_order_dishes.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_chef_order_dishes.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_exit_to_app_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_exit_to_app_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_person_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phonewhite.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\phonewhite.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_customer_payableorder.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\customer_payableorder.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_chef_pendingorders.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\fragment_chef_pendingorders.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic2.jpg.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\pic2.jpg"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_schedule_black_24dp.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\drawable\\ic_schedule_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_menu.xml.flat",
+        "source": "D:\\DuAn1\\New folder\\FoodOn_FoodDelivery_by_Androrealm\\app\\src\\main\\res\\layout\\activity_main_menu.xml"
+    }
+]
